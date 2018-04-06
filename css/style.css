@@ -1,0 +1,121 @@
+@import 'reset.css';
+
+body {background: url('../images/bg-jeux.jpg'); background-size:cover; overflow: hidden; background-position: bottom;}
+
+
+.f-head   { display: flex; }
+.j-cont   { justify-content: space-around; }
+.a-items {align-items: center;}
+
+.size-win { height: 350px;
+            width: 350px; }
+
+
+html {size: 62.5%;
+     margin: 0; 
+     padding: 0; 
+     width:100%; 
+     height:100%;
+    }
+
+/*Backgrounds*/
+.bg-blue {background-color: #00173a;}
+.bg-zero {background: transparent;}
+.bg-city {
+    background: url("../images/bg_city.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    ;}
+.bg-loose {background: url('../images/bg-loose.jpg'); background-size:cover; overflow: hidden; background-position: bottom;}
+
+/*Taille (hauteur/largeur)*/
+.h530p {height: 514px;}
+.h300p {height: 300px;}
+.h100 {height: 100%;}
+
+.w100 {width: 100%;}
+.w40 {width: 40%;}
+
+.min-h-100vh {min-height: 100vh;}
+.min-h-vh {min-height: 530px;}
+
+/*Fonts*/
+.ft-clr-white {color: #FFF;}
+.ft-clr-red {color: red;}
+.ft-clr-magenta {color: #ff00ff;}
+
+.ft-oswald {font-family: 'Oswald', sans-serif;}
+.ft-baumans {font-family: 'Baumans', cursive;}
+
+.ft-s-50 {font-size: 5rem;}
+.ft-s-20 {font-size: 2rem;}
+.ft-s-14 {font-size: 1.2rem;}
+
+.ft-w-bold {font-weight: 800;}
+
+::placeholder {color: #26a9e0;}
+
+/*Flexbox*/
+.dsp-flex {display: flex;}
+
+.flx-col {flex-direction: column;}
+.flx-row {flex-direction: row;}
+
+.align-center {align-content: center;}
+.align-slf-end {align-self: flex-end;}
+
+/*Positionnement*/
+
+.d-block {display: inline-block;}
+
+.center {margin: auto;}
+.t-center {text-align: center;}
+.align-center {align-items: center;}
+.just-center {justify-content: center;}
+
+.pos-relative {position: relative;}
+.pos-absolute {position: absolute;}
+
+.z-index-0 {z-index: 0;}
+.z-index-1 {z-index: 1;}
+.z-index-2 {z-index: 2;}
+
+.bottom-0 {bottom: 0;}
+
+.d-block {display: inline;}
+
+/*Espacement*/
+.mrg-t-80p {margin-top:80px;}
+.mrg-b-50p {margin-bottom:50px;}
+.mrg-b-30p {margin-bottom:30px;}
+
+.pad-30p {padding: 30px;}
+.pad-10p {padding: 10px;}
+
+/*Borders*/
+.brd-none {border:none;}
+
+.brd-radius {border-radius: 20px;}
+
+/*Hovers*/
+section {background-color: #000000be;}
+section:hover {
+    background-color: #000000e1;
+    transition: 0.3s;
+}
+
+h2 { font-family: 'Baumans', cursive;
+     color : white;
+     font-size: 2rem;}
+
+/*Shadows*/
+.box-shadow {box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);}
+
+.txt-shadow {text-shadow:0 1px 1px rgba(0,0,0,.4);}
+
+/*Spaceship*/
+#spaceship {
+    width: 100px;
+    height: 100px;
+    background: #FFF;
+}

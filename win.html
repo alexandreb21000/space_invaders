@@ -8,16 +8,17 @@
     <link href="https://fonts.googleapis.com/css?family=Baumans|Oswald|Monoton" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="bg-blue">
+<body class="bg-loose">
     <audio src="intro.wav" autoplay>
+        Votre navigateur ne supporte pas l'élément <code>audio</code>.
     </audio>
     <div class="dsp-flex flx-col min-h-100vh">
-        <main class="ft-clr-white bg-blue center">
+        <main class="ft-clr-white center">
             <header class="t-center pos-relative ft-s-50 ft-baumans pos-relative z-index-1 ">
                 GLOWMETRY
             </header>
             <section class="t-center center ft-oswald mrg-t-80p pos-relative z-index-1 pad-30p brd-radius txt-shadow">
-                    <h1 class="t-center ft-w-bold ft-s-20 mrg-b-50p">LOGIN</h1>
+                   <img src="win.gif" class="size-win" alt="loose">
                 <div>
                     <input type="text" class="t-center mrg-b-30p ft-oswald bg-zero ft-clr-magenta brd-none ft-s-14" placeholder="Entrez votre pseudo" name="pseudo" id="pseudo">
                 </div>
@@ -29,11 +30,9 @@
                 </div>
             </section>
         </main>
-        <div class="h530p bg-city w100 center pos-absolute z-index-0 bottom-0 min-h-vh">
+        <div class="h530p w100 center pos-absolute z-index-0 bottom-0 min-h-vh">
         </div>
     </div>
-
-
     <script type="text/javascript" src="login.js"></script>
 </body>
 </html>
