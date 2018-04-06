@@ -21,11 +21,7 @@ html {size: 62.5%;
 /*Backgrounds*/
 .bg-blue {background-color: #00173a;}
 .bg-zero {background: transparent;}
-.bg-city {
-    background: url("../images/bg_city.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    ;}
+
 .bg-loose {background: url('../images/bg-loose.jpg'); background-size:cover; overflow: hidden; background-position: bottom;}
 
 /*Taille (hauteur/largeur)*/
