@@ -25,6 +25,9 @@ Object.defineProperty( this, "top", {
     }
 } );
 
+
+
+
 Object.defineProperty (this, "display", {
     get: function() {
         return this._node.style.display;
@@ -36,6 +39,7 @@ Object.defineProperty (this, "display", {
 
 this.left = left;
 this.top = top;
+
 
 }
 

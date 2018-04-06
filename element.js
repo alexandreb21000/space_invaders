@@ -65,7 +65,7 @@ if ( event.keyCode == 32) {
                 var form = window["form"+i];}
         missile2.display = "block";
         missile2.left = form5.left + (form5._node.width - missile2._node.width) / 2 ;
-        missile2.top = form5.top;
+        missile2.bottom = form5.bottom;
         missile2.startAnimation( moveMissile2, 20 );
         }
 }
@@ -81,7 +81,7 @@ if ( Points > 4) {
 function moveMissile(missile){
     
 
-    missile.top -= 8 ; 
+    missile.top -= 20 ; 
     if ( missile.top < -40 ) { 
         missile.stopAnimation();
         missile.display = "none"
@@ -108,11 +108,10 @@ function moveMissile(missile){
 
 function moveMissile2(missile2){
     
-
-    missile2.top -= 8 ; 
-    if ( missile2.top < -40 ) { 
+    missile2.top += 8 ; 
+    if ( missile2.top > 760 ) { 
         missile2.stopAnimation();
-        missile2.display = "none"
+        missile2.display = "none";
     }
 
     for(var i=1; i<=21; i++ ) {
